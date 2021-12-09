@@ -16,7 +16,7 @@ public:
 	{
 		pool.clear();
 	}
-	boolean isEmpty() const
+	bool isEmpty() const
 	{
 		return pool.empty();
 	}
