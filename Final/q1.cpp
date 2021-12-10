@@ -108,5 +108,29 @@ return -1;
     s9.setCcredit(9);
     s9.printCourse();
 
-  }
+    int target = 0;
+
+    int arr[] = {1,2,3,4,5,6,7,8,9,10};
+    cout << "Enter ID of wanted course: ";
+    cin >> target;
+ 
+    int n = sizeof(arr)/sizeof(arr[0]);
+ 
+    int first = 0, last = n - 1;
+    int index = BinarySearch(arr, first, last, target);
+ 
+    if (index != -1) {
+        cout << "Course is found in the array at position: "<< target; 
+        
+    }
+    else {
+        cout <<"Course not found in the array";
+    }
+ 
+    return 0; 
+}
+
+  
+  
+
 
