@@ -58,52 +58,52 @@ return -1;
   {
     Course s0,s1,s2,s3,s4,s5,s6,s7,s8,s9;
     
-    s0.setCid(111111);
+    s0.setCid(1);
     s0.setCname("Calculus");
     s0.setCcredit(0);
     s0.printCourse();
     
-    s1.setCid(2222);
+    s1.setCid(2);
     s1.setCname("trig");
     s1.setCcredit(1);
     s1.printCourse();
     
-    s2.setCid(3333);
+    s2.setCid(3);
     s2.setCname("History");
     s2.setCcredit(2);
     s2.printCourse();
     
-    s3.setCid(4444);
+    s3.setCid(4);
     s3.setCname("Health");
     s3.setCcredit(3);
     s3.printCourse();
     
-    s4.setCid(5555);
+    s4.setCid(5);
     s4.setCname("Chemistry");
     s4.setCcredit(4);
     s4.printCourse();
     
-    s5.setCid(6666);
+    s5.setCid(6);
     s5.setCname("Biology");
     s5.setCcredit(5);
     s5.printCourse();
     
-    s6.setCid(7777);
+    s6.setCid(7);
     s6.setCname("Psychology");
     s6.setCcredit(6);
     s6.printCourse();
     
-    s7.setCid(8888);
+    s7.setCid(8);
     s7.setCname("Speech");
     s7.setCcredit(7);
     s7.printCourse();
     
-    s8.setCid(99999);
+    s8.setCid(9);
     s8.setCname("Physics");
     s8.setCcredit(8);
     s8.printCourse();
     
-    s9.setCid(10101010);
+    s9.setCid(10);
     s9.setCname("English");
     s9.setCcredit(9);
     s9.printCourse();
