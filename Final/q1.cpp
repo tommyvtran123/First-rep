@@ -56,57 +56,57 @@ return -1;
 
   int main()
   {
-    Course s1,s2,s3,s4,s5,s6,s7,s8,s9,s10;
+    Course s0,s1,s2,s3,s4,s5,s6,s7,s8,s9;
     
-    s1.setCid(111111);
-    s1.setCname("Calculus");
-    s1.setCcredit(0);
-    s1.printCourse();
+    s0.setCid(111111);
+    s0.setCname("Calculus");
+    s0.setCcredit(0);
+    s0.printCourse();
     
     s1.setCid(2222);
     s1.setCname("trig");
     s1.setCcredit(1);
     s1.printCourse();
     
-    s1.setCid(3333);
-    s1.setCname("History");
-    s1.setCcredit(2);
-    s1.printCourse();
+    s2.setCid(3333);
+    s2.setCname("History");
+    s2.setCcredit(2);
+    s2.printCourse();
     
-    s1.setCid(4444);
-    s1.setCname("Health");
-    s1.setCcredit(3);
-    s1.printCourse();
+    s3.setCid(4444);
+    s3.setCname("Health");
+    s3.setCcredit(3);
+    s3.printCourse();
     
-    s1.setCid(5555);
-    s1.setCname("Chemistry");
-    s1.setCcredit(4);
-    s1.printCourse();
+    s4.setCid(5555);
+    s4.setCname("Chemistry");
+    s4.setCcredit(4);
+    s4.printCourse();
     
-    s1.setCid(6666);
-    s1.setCname("Biology");
-    s1.setCcredit(5);
-    s1.printCourse();
+    s5.setCid(6666);
+    s5.setCname("Biology");
+    s5.setCcredit(5);
+    s5.printCourse();
     
-    s1.setCid(7777);
-    s1.setCname("Psychology");
-    s1.setCcredit(6);
-    s1.printCourse();
+    s6.setCid(7777);
+    s6.setCname("Psychology");
+    s6.setCcredit(6);
+    s6.printCourse();
     
-    s1.setCid(8888);
-    s1.setCname("Speech");
-    s1.setCcredit(7);
-    s1.printCourse();
+    s7.setCid(8888);
+    s7.setCname("Speech");
+    s7.setCcredit(7);
+    s7.printCourse();
     
-    s1.setCid(99999);
-    s1.setCname("Physics");
-    s1.setCcredit(8);
-    s1.printCourse();
+    s8.setCid(99999);
+    s8.setCname("Physics");
+    s8.setCcredit(8);
+    s8.printCourse();
     
-    s1.setCid(10101010);
-    s1.setCname("English");
-    s1.setCcredit(9);
-    s1.printCourse();
+    s9.setCid(10101010);
+    s9.setCname("English");
+    s9.setCcredit(9);
+    s9.printCourse();
 
   }
 
