@@ -77,7 +77,6 @@ void printArray(Course arr[], int N)
 int main()
 {
 	Course arr[10];
-	// Course s[10];
     cout << "Courses before sort: "<< endl;
     
     arr[0].setCid(2);
