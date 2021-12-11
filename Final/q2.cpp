@@ -79,52 +79,52 @@ int main()
 	Course arr[10];
     cout << "Courses before sort: "<< endl;
     
-    arr[0].setCid(2);
+    arr[0].setCid(20);
     arr[0].setCname("Calculus");
     arr[0].setCcredit(0);
     
     
-    arr[8].setCid(6);
+    arr[8].setCid(50);
     arr[8].setCname("trig");
     arr[8].setCcredit(1);
     
     
-    arr[1].setCid(0);
+    arr[1].setCid(10);
     arr[1].setCname("History");
     arr[1].setCcredit(2);
     
     
-    arr[2].setCid(1);
+    arr[2].setCid(30);
     arr[2].setCname("Health");
     arr[2].setCcredit(3);
     
     
-    arr[9].setCid(9);
+    arr[9].setCid(90);
     arr[9].setCname("Chemistry");
     arr[9].setCcredit(4);
     
     
-    arr[5].setCid(4);
+    arr[5].setCid(40);
     arr[5].setCname("Biology");
     arr[5].setCcredit(5);
    
     
-    arr[6].setCid(7);
+    arr[6].setCid(70);
     arr[6].setCname("Psychology");
     arr[6].setCcredit(6);
     
     
-    arr[7].setCid(8);
+    arr[7].setCid(100);
     arr[7].setCname("Speech");
     arr[7].setCcredit(7);
    
     
-    arr[4].setCid(5);
+    arr[4].setCid(80);
     arr[4].setCname("Physics");
     arr[4].setCcredit(8);
     
     
-    arr[3].setCid(3);
+    arr[3].setCid(60);
     arr[3].setCname("English");
     arr[3].setCcredit(9);
     
