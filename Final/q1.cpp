@@ -59,7 +59,7 @@ return -1;
   {
     
     Course arr[10];
-	// Course s[10];
+	
     
     arr[0].setCid(10);
     arr[0].setCname("Calculus");
@@ -112,7 +112,7 @@ return -1;
     arr[9].printCourse();
     
     int target;
-    cout << "Enter ID of wanted course: ";
+    cout << "Enter ID of desired course: ";
     cin >> target;
  
     int n = sizeof(arr)/sizeof(arr[0]);
@@ -121,7 +121,7 @@ return -1;
     int index = BinarySearch(arr, first, last, target);
     if (index != -1) {
         cout << "Course is found in the array at position: "<< index << endl; 
-		// getCid , arr[index].getSname(), .. 
+		 
         cout << "Course Name: " << arr[index].getSname() << "\n";
 		    cout << "Course ID: " << arr[index].getSid() << "\n";
 		    cout << "Course Credit: " << arr[index].getCredit() << "\n";
