@@ -61,71 +61,70 @@ return -1;
     Course arr[10];
 	// Course s[10];
     
-    arr[0].setCid(0);
+    arr[0].setCid(10);
     arr[0].setCname("Calculus");
     arr[0].setCcredit(0);
     arr[0].printCourse();
     
-    arr[1].setCid(1);
+    arr[1].setCid(20);
     arr[1].setCname("trig");
     arr[1].setCcredit(1);
     arr[1].printCourse();
     
-    arr[2].setCid(2);
+    arr[2].setCid(30);
     arr[2].setCname("History");
     arr[2].setCcredit(2);
     arr[2].printCourse();
     
-    arr[3].setCid(3);
+    arr[3].setCid(40);
     arr[3].setCname("Health");
     arr[3].setCcredit(3);
     arr[3].printCourse();
     
-    arr[4].setCid(4);
+    arr[4].setCid(50);
     arr[4].setCname("Chemistry");
     arr[4].setCcredit(4);
     arr[4].printCourse();
     
-    arr[5].setCid(5);
+    arr[5].setCid(60);
     arr[5].setCname("Biology");
     arr[5].setCcredit(5);
     arr[5].printCourse();
     
-    arr[6].setCid(6);
+    arr[6].setCid(70);
     arr[6].setCname("Psychology");
     arr[6].setCcredit(6);
     arr[6].printCourse();
     
-    arr[7].setCid(7);
+    arr[7].setCid(80);
     arr[7].setCname("Speech");
     arr[7].setCcredit(7);
     arr[7].printCourse();
     
-    arr[8].setCid(8);
+    arr[8].setCid(90);
     arr[8].setCname("Physics");
     arr[8].setCcredit(8);
     arr[8].printCourse();
     
-    arr[9].setCid(9);
+    arr[9].setCid(100);
     arr[9].setCname("English");
     arr[9].setCcredit(9);
     arr[9].printCourse();
     
-    int target = 0;
+    int target;
     cout << "Enter ID of wanted course: ";
     cin >> target;
  
     int n = sizeof(arr)/sizeof(arr[0]);
- 
+      
     int first = 0, last = n - 1;
     int index = BinarySearch(arr, first, last, target);
- 
     if (index != -1) {
-        cout << "Course is found in the array at position: "<< target << endl; 
+        cout << "Course is found in the array at position: "<< index << endl; 
 		// getCid , arr[index].getSname(), .. 
-        cout << "Course Name: " << arr[target].getSname() << "\n";
-		    cout << "Course ID: " << arr[target].getSid() << "\n";
-		    cout << "Course Credit: " << arr[target].getCredit() << "\n";
+        cout << "Course Name: " << arr[index].getSname() << "\n";
+		    cout << "Course ID: " << arr[index].getSid() << "\n";
+		    cout << "Course Credit: " << arr[index].getCredit() << "\n";
     }
     else {
         cout <<"Course not found in the array";
