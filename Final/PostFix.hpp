@@ -2,7 +2,7 @@
 #define POSTFIX_H
 
 #include <iostream>
-#include "Stack.hpp"
+#include "Stack1.hpp"
 using namespace std;
 
 class PostfixExp
