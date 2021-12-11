@@ -134,6 +134,7 @@ int main()
   const int N = 10;
 	printArray(arr, N);
   qsort(arr,0, N-1); 
-	printArray(arr, N);
+	cout << "Courses after sort: "<< endl;
+  printArray(arr, N);
 
 }
