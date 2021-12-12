@@ -115,7 +115,7 @@ return -1;
     cout << "Enter ID of desired course: ";
     cin >> target;
  
-    int n = sizeof(arr)/sizeof(arr[0]);
+    int n = 9;
       
     int first = 0, last = n - 1;
     int index = BinarySearch(arr, first, last, target);
