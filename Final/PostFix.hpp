@@ -55,7 +55,9 @@ public:
 	}
 	void setExpression(string s)
 	{
-		expression  = s;
+		cout << "Enter a postfix expression up to 4 digits: ";
+    cin >> s;
+    expression  = s;
 	}
 	void printExpression() const
 	{
@@ -83,6 +85,8 @@ public:
 			}
 		}
 		cout << "The result of the expression is " << stack.pop() << endl;
+    return result;
+ 
   }
 };
 
